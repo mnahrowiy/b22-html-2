@@ -1,0 +1,65 @@
+/* gambar */
+
+/* img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+
+}
+
+.halaman{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: justify;
+    padding: 50px;
+} */
+
+.wrap{
+    display: inline;
+    text-align: justify;
+    /* width: 80%; */
+    padding: 10px;
+    /* align-content: center; */
+    /* float: right; */
+    margin: 10px;
+}
+
+.wrap img{
+    padding-left: 25%;
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+.halaman{
+    float: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.halaman span{
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.tulisan{
+    padding-left: 150px;
+    width: 80%;
+    font-size: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-rule-width : 1px;
+	-moz-column-rule-width : 1px;
+	column-rule-width : 1px;
+    -webkit-column-rule : 1px solid black;
+    -webkit-column-gap : 20px;
+    column-gap : 20px;	
+}

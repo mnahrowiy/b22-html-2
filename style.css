@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+ul {
+    padding: 18px;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    display: inline;
+}
+
+li a {
+    /* background-color: #222; */
+    color: #f7f1f1;
+}
+
+li a:hover {
+    background-color: #4da4ff;
+    padding: auto;
+    color: #fff;
+}
+
+nav {
+   
+    height: 60px;
+}
+
+nav ul{
+    list-style-type: none;
+    background-image: linear-gradient(rgb(2, 100, 2), rgb(79, 236, 79));
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+/* articel */
+
+.isi {
+    display: grid;
+    width: 450px;
+    text-align: justify;
+    padding: 10px;
+    clear: both;
+    /* padding-left: 20px; */
+    /* padding: 20px; */
+    /* float: left; */
+    /* display: grid;
+    position: relative;
+    width: 500px;
+    font-size: 20px; */
+}
+
+.judul {
+    /* color: rgb(95, 82, 82);
+    padding-top: 30px;
+    padding-left: 30px; */
+    font-family: sans-serif;
+    padding-bottom: 5px;
+}
+
+
+
+/* articel */
+
+.detail-post{
+    display: inline;
+    /* padding-left: 10px; */
+}
+
+    .detail-post .post-by{
+        display: inline-flex;
+        position: relative;
+        background-color: rgb(198, 245, 129);
+        border-radius: 20px;
+        padding: 5px;
+        /* margin: 10px; */
+        height: 15px;
+        width: 180px;
+        text-align: center;
+    }
+
+    .detail-post .comment{
+        display: inline-flex;
+        position: relative;
+        background-color: rgb(198, 245, 129);
+        border-radius: 20px;
+        padding: 5px;
+        margin: 5px;
+        height: 15px;
+        width: 212px;
+        text-align: center;
+    }
+
+   img{
+        float: left;
+        /* padding-left: 30px; */
+    }
+
+    /* .hidden-text {
+        display: none;
+    }
+
+    .toggle-text{
+        text-decoration: none;
+    }
+
+    .toggle-text:focus+.hidden-text {
+        display: block;
+    } */
+
+    
+
+    article{
+        padding: 5px;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+
+    

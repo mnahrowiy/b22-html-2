@@ -1,0 +1,133 @@
+/* 1 */
+*{
+    clear: both;
+}
+#content {
+    clear: both;
+    display: none;
+}
+
+#content:target {
+    display: inline;
+    clear: both;
+}
+
+#less {
+    display: none;
+}
+
+#content:target~#less {
+    display: inline;
+    clear: both;
+}
+
+/* 2 */
+
+#content-1 {
+    clear: both;
+    display: none;
+}
+
+#content-1:target {
+    clear: both;
+    display: inline;
+}
+
+#less-1 {
+    display: none;
+}
+
+#content-1:target~#less-1 {
+    clear: both;
+    display: inline;
+}
+
+/* 3 */
+
+#content-3 {
+    clear: both;
+    display: none;
+}
+
+#content-3:target {
+    clear: both;
+    display: inline;
+}
+
+#less-3 {
+    display: none;
+}
+
+#content-3:target~#less-3 {
+    clear: both;
+    display: inline;
+}
+
+
+/* 4 */
+
+#content-4 {
+    clear: both;
+    display: none;
+}
+
+#content-4:target {
+    clear: both;
+    display: inline;
+}
+
+#less-4 {
+    display: none;
+}
+
+#content-4:target~#less-4 {
+    clear: both;
+    display: inline;
+}
+
+/* 5 */
+
+#content-5 {
+    clear: both;
+    display: none;
+}
+
+#content-5:target {
+    clear: both;
+    display: inline;
+}
+
+#less-5 {
+    display: none;
+}
+
+#content-5:target~#less-5 {
+    clear: both;
+    display: inline;
+}
+
+/* 6 */
+
+#content-6 {
+    clear: both;
+    display: none;
+}
+
+#content-6:target {
+    clear: both;
+    display: inline;
+}
+
+#less-6 {
+    display: none;
+}
+
+#content-6:target~#less-6 {
+    clear: both;
+    display: inline;
+}
+
+
+
+
+
